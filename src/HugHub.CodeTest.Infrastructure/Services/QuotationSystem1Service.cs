@@ -1,11 +1,12 @@
 ﻿using HugHub.CodeTest.Infrastructure.Interfaces;
 using HugHub.CodeTest.Infrastructure.Models.Configuration;
+using Microsoft.Extensions.Options;
 using System.Dynamic;
 
 
 namespace HugHub.CodeTest.Infrastructure.Services
 {
-    public class QuotationSystem1Service : IQuotationSystemService
+    public class QuotationSystem1Service : IQuotationSystem1Service
     {
         private readonly QuotationSystem1Settings _quotationSystem1Settings;
         //private readonly ExternalService _someExternalService;

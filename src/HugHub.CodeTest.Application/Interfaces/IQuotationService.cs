@@ -3,8 +3,8 @@ using HugHub.CodeTest.Domain.Models.Requests;
 
 namespace HugHub.CodeTest.Application.Interfaces
 {
-    public interface IPriceEngine
+    public interface IQuotationService
     {
-        public PriceEngineResponse GetPrice(PriceRequest request);
+        public QuotationServiceResponse GetPrice(PriceRequest request);
     }
 }

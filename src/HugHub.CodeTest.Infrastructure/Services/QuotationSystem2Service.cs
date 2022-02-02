@@ -1,15 +1,16 @@
 ﻿using HugHub.CodeTest.Infrastructure.Interfaces;
 using HugHub.CodeTest.Infrastructure.Models.Configuration;
+using Microsoft.Extensions.Options;
 using System.Dynamic;
 
 namespace HugHub.CodeTest.Infrastructure.Services
 {
-    public class QuotationSystem2Service : IQuotationSystemService
+    public class QuotationSystem2Service : IQuotationSystem2Service
     {
         private readonly QuotationSystem2Settings _quotationSystem2Settings;
         //private readonly ExternalService2 _someExternalService2;
 
-        public QuotationSystem1Service(IOptions<QuotationSystem2Settings> quotationSystem2Settings)
+        public QuotationSystem2Service(IOptions<QuotationSystem2Settings> quotationSystem2Settings)
         {
             _quotationSystem2Settings = quotationSystem2Settings.Value;
 

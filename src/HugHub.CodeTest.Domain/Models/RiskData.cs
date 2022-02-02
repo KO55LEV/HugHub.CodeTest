@@ -8,3 +8,4 @@
         public string Make { get; set; }
         public DateTime? DOB { get; set; }
     }
+}

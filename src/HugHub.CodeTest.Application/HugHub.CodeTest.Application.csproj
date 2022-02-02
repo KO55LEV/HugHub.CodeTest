@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HugHub.CodeTest.Domain\HugHub.CodeTest.Domain.csproj" />
+    <ProjectReference Include="..\HugHub.CodeTest.Infrastructure\HugHub.CodeTest.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
