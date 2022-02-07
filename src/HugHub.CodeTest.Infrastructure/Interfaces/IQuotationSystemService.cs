@@ -2,6 +2,6 @@
 {
     public interface IQuotationSystemService
     {
-        public dynamic GetPrice(dynamic request)
+        public dynamic GetPrice(dynamic request);
     }
 }
